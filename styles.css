@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-    background-color: lightgray;
+    background-color: rgb(216, 211, 211);
     font-family: poppins,sans-serif;
     
 }
@@ -16,8 +16,9 @@ body{
   width: 250px;
   -webkit-box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
   box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
-  margin-left: 200px;
-  margin-top: 200px;
+  margin-bottom: 30px;
+  
+ 
 }
 
 .hover:hover{
@@ -32,8 +33,10 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   text-align: center;
+  
+  
 }
 .card_title {
   font-size: 30px;
@@ -101,4 +104,17 @@ body{
 .card_time{
     font-size: 15px;
     font-weight: bold;
+}
+
+.card_container{
+  width: 65%;
+  margin: 20px auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+ 
+  
 }
