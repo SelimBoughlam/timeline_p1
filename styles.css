@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: poppins,sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.card {
+  width: 250px;
+  -webkit-box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.card:hover{
+    width: 275px;
+    transition: 0.5s;
+}
+
+.card_body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.card_title {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.card_content p{
+    font-size: 18px;
+    padding:5px;
+}
+
+.card_img img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card_time{
+    font-size: 15px;
+    font-weight: bold;
+}
