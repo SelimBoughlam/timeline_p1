@@ -6,6 +6,7 @@
 body{
     background-color: lightgray;
     font-family: poppins,sans-serif;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
@@ -19,9 +20,10 @@ body{
   margin-top: 200px;
 }
 
-.card:hover{
-    width: 275px;
-    transition: 0.5s;
+.hover:hover{
+  
+    transform: rotate(5deg);
+   
 }
 
 .card_body {
@@ -45,7 +47,56 @@ body{
 
 .card_img img {
   border-radius: 5px 5px 0 0;
+ 
 }
+.card_img{
+  height: 250px;
+}
+.lundi{
+  background: url(/img/Its-Monday-Lets-Do-This.png)no-repeat;
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+}
+
+.mardi{
+  background: url(/img/tuesday.jpg)no-repeat;
+  height: 250px;
+  background-position:center;
+  background-size: cover;
+}
+
+.mercredi{
+  background:url(/img/Wednesday.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.jeudi{
+  background:url(/img/Thursday.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.vendredi{
+  background:url(/img/Friday.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.samedi{
+  background:url(/img/Saturday.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.dimanche{
+  background:url(/img/Sunday.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+
 
 .card_time{
     font-size: 15px;
