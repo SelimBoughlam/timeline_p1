@@ -1,15 +1,46 @@
+                        /* General settings */
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-    background-color: rgb(216, 211, 211);
-    font-family: poppins,sans-serif;
-    
+    background-color: rgba(65, 56, 56, 0.603);
+    font-family: poppins,sans-serif; 
 }
+h2{
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: rgb(226, 207, 207);
+  text-decoration: underline;
+}
+                      /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+          /* Header */
+.header{
+  margin: 0 auto;
+  width: 80%;
+
+}
+.main_title{
+  font-size: 50px;
+  text-align: center;
+  margin:50px;
+  padding: 30px;
+  color:rgb(226, 207, 207);
+  border: 1px solid black;
+  border-radius: 10px;
+}          
+
+
+            /* Card general Settings */
+
 
 
 .card {
@@ -17,6 +48,7 @@ body{
   -webkit-box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
   box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
   margin-bottom: 30px;
+  background-color: rgba(243, 236, 236, 0.692);
   
  
 }
@@ -35,6 +67,7 @@ body{
   align-items: center;
   margin-bottom: 30px;
   text-align: center;
+ 
   
   
 }
@@ -55,6 +88,22 @@ body{
 .card_img{
   height: 250px;
 }
+.card_time{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card_container{
+width: 65%;
+margin: 20px auto;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+          /* Cards Day by Day */
 .lundi{
   background: url(/img/Its-Monday-Lets-Do-This.png)no-repeat;
   height: 250px;
@@ -101,20 +150,4 @@ body{
 
 
 
-.card_time{
-    font-size: 15px;
-    font-weight: bold;
-}
 
-.card_container{
-  width: 65%;
-  margin: 20px auto;
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
-  
- 
-  
-}
