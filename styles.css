@@ -17,6 +17,9 @@ h2{
   color: rgb(226, 207, 207);
   text-decoration: underline;
 }
+h3{
+  font-size: 100px
+}
                       /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
