@@ -96,7 +96,6 @@ h2{
 .card_container{
 width: 65%;
 margin: 20px auto;
-
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -149,5 +148,45 @@ justify-content: space-between;
 }
 
 
+              /* Projets soutenances */
+.projet1{
+  background:url(/img/projet1.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
 
+.projet2{
+  background:url(/img/projet2.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
 
+.projet3{
+  background:url(/img/projet3.png)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.projet4{
+  background:url(/img/projet4.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.projet5{
+  background:url(/img/projet5.png)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.projet6{
+  background:url(/img/projet6.png)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
+
+.projet7{
+  background:url(/img/Projet7.jpg)no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
