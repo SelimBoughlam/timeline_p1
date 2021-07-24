@@ -7,19 +7,19 @@
   box-sizing: border-box;
 }
 body{
-    background-color: rgba(65, 56, 56, 0.603);
+    background-color: rgb(123 134 229);
     font-family: poppins,sans-serif; 
 }
 h2{
   font-size: 35px;
   text-align: center;
   padding-bottom: 50px;
-  color: rgb(226, 207, 207);
-  text-decoration: underline;
-}
-                      /* Fonts */
+  color: rgb(31 48 70);
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+  
+}
+
+
 
 
           /* Header */
@@ -33,7 +33,7 @@ h2{
   text-align: center;
   margin:50px;
   padding: 30px;
-  color:rgb(226, 207, 207);
+  color:rgb(26 49 60);
   border: 1px solid black;
   border-radius: 10px;
 }          
@@ -45,7 +45,6 @@ h2{
 
 .card {
   width: 250px;
-  -webkit-box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
   box-shadow: 7px 9px 8px 0px rgba(0, 0, 0, 0.39);
   margin-bottom: 30px;
   background-color: rgba(243, 236, 236, 0.692);
@@ -104,45 +103,45 @@ justify-content: space-between;
 
           /* Cards Day by Day */
 .lundi{
-  background: url(/img/Its-Monday-Lets-Do-This.png)no-repeat;
+  background: url(img/Its-Monday-Lets-Do-This.png)no-repeat;
   height: 250px;
   background-position: center;
   background-size: contain;
 }
 
 .mardi{
-  background: url(/img/tuesday.jpg)no-repeat;
+  background: url(img/tuesday.jpg)no-repeat;
   height: 250px;
   background-position:center;
   background-size: cover;
 }
 
 .mercredi{
-  background:url(/img/Wednesday.jpg)no-repeat;
+  background:url(img/Wednesday.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .jeudi{
-  background:url(/img/Thursday.jpg)no-repeat;
+  background:url(img/Thursday.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .vendredi{
-  background:url(/img/Friday.jpg)no-repeat;
+  background:url(img/Friday.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .samedi{
-  background:url(/img/Saturday.jpg)no-repeat;
+  background:url(img/Saturday.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .dimanche{
-  background:url(/img/Sunday.jpg)no-repeat;
+  background:url(img/Sunday.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
@@ -150,43 +149,43 @@ justify-content: space-between;
 
               /* Projets soutenances */
 .projet1{
-  background:url(/img/projet1.jpg)no-repeat;
+  background:url(img/projet1.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .projet2{
-  background:url(/img/projet2.jpg)no-repeat;
+  background:url(img/projet2.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .projet3{
-  background:url(/img/projet3.png)no-repeat;
+  background:url(img/projet3.png)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .projet4{
-  background:url(/img/projet4.jpg)no-repeat;
+  background:url(img/projet4.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .projet5{
-  background:url(/img/projet5.png)no-repeat;
+  background:url(img/projet5.png)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .projet6{
-  background:url(/img/projet6.png)no-repeat;
+  background:url(img/projet6.png)no-repeat;
   background-position:center ;
   background-size: cover;
 }
 
 .projet7{
-  background:url(/img/Projet7.jpg)no-repeat;
+  background:url(img/Projet7.jpg)no-repeat;
   background-position:center ;
   background-size: cover;
 }
